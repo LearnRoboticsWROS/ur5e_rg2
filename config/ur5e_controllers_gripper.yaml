@@ -29,6 +29,7 @@ controller_manager:
 
     gripper_position_controller:
       type: forward_command_controller/ForwardCommandController
+      #type: position_controllers/GripperActionController
 
 
 speed_scaling_state_broadcaster:
